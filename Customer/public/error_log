@@ -1,0 +1,47 @@
+[22-Feb-2025 22:11:03 UTC] PHP Fatal error:  Cannot use App\Models\Country as Country because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CountryController.php on line 9
+[22-Feb-2025 22:11:46 UTC] PHP Fatal error:  Cannot use App\Models\Country as Country because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CountryController.php on line 9
+[22-Feb-2025 22:11:57 UTC] PHP Fatal error:  Cannot use App\Models\Country as Country because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CountryController.php on line 9
+[23-Feb-2025 14:47:41 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\StateController, because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CityController.php on line 13
+[27-Feb-2025 19:09:33 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\BusinessAreaController, because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CustomerController.php on line 11
+[27-Feb-2025 19:10:09 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\BusinessAreaController, because the name is already in use in /home/crmone/public_html/Admin/app/Http/Controllers/CustomerController.php on line 11
+[31-Mar-2025 05:51:25 UTC] PHP Warning:  require(/home/crmone/public_html/BusinessDashboard/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/crmone/public_html/BusinessDashboard/public/index.php on line 34
+[31-Mar-2025 05:51:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/crmone/public_html/BusinessDashboard/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/crmone/public_html/BusinessDashboard/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/crmone/public_html/BusinessDashboard/public/index.php on line 34
+[31-Mar-2025 06:21:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/crmone/public_html/BusinessDashboard/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[31-Mar-2025 06:22:09 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/crmone/public_html/BusinessDashboard/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#9 {main}
+  thrown in /home/crmone/public_html/BusinessDashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[05-May-2025 19:15:59 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\DashboardController, because the name is already in use in /home/crmone/public_html/Customer/app/Http/Controllers/HomeController.php on line 19
+[07-May-2025 15:46:59 UTC] PHP Fatal error:  Cannot use App\Http\Controllers\ProfileController as ProfileController because the name is already in use in /home/crmone/public_html/Customer/routes/web.php on line 16
+[11-May-2025 13:37:32 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/crmone/public_html/Customer/app/Http/Controllers/HomeController.php on line 22
+[11-May-2025 13:37:50 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/crmone/public_html/Customer/app/Http/Controllers/HomeController.php on line 22
+[13-Aug-2025 22:52:25 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crmtwo2/public_html/Customer/storage/framework/views/0d99e49ff1985c9a57c418e1c6b386b8ee6d09d4.php on line 106
+[14-Aug-2025 04:31:20 UTC] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/crmtwo2/public_html/Customer/app/Http/Controllers/HomeController.php on line 24
+[15-Sep-2025 09:00:57 UTC] PHP Fatal error:  Cannot use Barryvdh\DomPDF\Facade\Pdf as Pdf because the name is already in use in /home/crm2amicrosharp/public_html/Customer/app/Http/Controllers/LuckydrawController.php on line 25
+[15-Sep-2025 09:01:09 UTC] PHP Fatal error:  Cannot use Barryvdh\DomPDF\Facade\Pdf as Pdf because the name is already in use in /home/crm2amicrosharp/public_html/Customer/app/Http/Controllers/LuckydrawController.php on line 25
+[15-Sep-2025 09:01:25 UTC] PHP Fatal error:  Cannot use Barryvdh\DomPDF\Facade\Pdf as Pdf because the name is already in use in /home/crm2amicrosharp/public_html/Customer/app/Http/Controllers/LuckydrawController.php on line 25
+[15-Sep-2025 09:01:54 UTC] PHP Fatal error:  Cannot use Barryvdh\DomPDF\Facade\Pdf as Pdf because the name is already in use in /home/crm2amicrosharp/public_html/Customer/app/Http/Controllers/LuckydrawController.php on line 25

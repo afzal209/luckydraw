@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Winner Declaration Process</title>
+		<script>
+			let counter = 60;
+			function updateCounter() {
+				let display = document.getElementById("counter");
+				let message = document.getElementById("message");
+				
+				if (counter === 59) {
+					message.innerHTML = "I am reading the tickets";
+				} else if (counter === 45) {
+					message.innerHTML = "Started the process of Randomly picking the Ticket";
+				} else if (counter === 30) {
+					message.innerHTML = "Updating the database ";
+				} else if (counter === 10) {
+					message.innerHTML = "Winner Declared.";
+				}
+				
+				display.innerHTML = counter;
+				counter--;
+				if (counter >= 0) {
+					setTimeout(updateCounter, 1000);
+				}
+			}
+			
+			window.onload = function() {
+				document.getElementById("counter").innerHTML = "Processing...";
+				setTimeout(updateCounter, 1000);
+			};
+		</script>
+	</head>
+	<body>
+		<h1>Winner Declaration Process</h1>
+		<h2 id="counter"></h2>
+		<h3 id="message"></h3>
+	</body>
+</html>
+
+
+
